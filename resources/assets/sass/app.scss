@@ -1,0 +1,116 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
+
+// Variables
+@import "variables";
+
+// icon
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.filter-item {
+	margin-bottom: 5px;
+    border-bottom: 1px dashed lightgrey;
+    padding: 15px;
+}
+
+.title {
+	font-size: 18px;
+	margin: 2px 0;
+	line-height: 0.5;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title span {
+	display: inline-block;
+	position: relative;
+}
+
+.title span::before,
+.title span::after {
+	border-bottom: 3px solid #c19c9c;
+	content: "";
+	height: 7px;
+	margin-right: 1em;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.title span::before {
+	margin-right: 15px;
+	right: 100%;
+}
+
+.title span::after {
+	left: 100%;
+	margin-left: 15px;
+}
+
+.sub-title {
+    font-size: 15px;
+    text-align: center;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.details {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.detail {
+	padding: 10px;
+	flex: 1;
+	color: #37393a;
+	display: flex;
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px dashed #cecaca;
+}
+
+.detail:last-child {
+	border-bottom: none;
+}
+
+.detail-icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.detail-title {
+	flex: 1;
+	font-size: 18px;
+}
+
+.detail-item {
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.m-1 {
+	margin: 1em;
+}
+
+.ml-a {
+	margin-left: auto;
+}
+
+.mb-1 {
+	margin-bottom: 1em;
+}
