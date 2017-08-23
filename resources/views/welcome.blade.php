@@ -16,9 +16,9 @@
         <style>
             html, body {
                 background-color: #8b0000;
-                color: #e7eef1;
+                color: #f1ecec;
                 font-family: 'Raleway', sans-serif;
-                font-weight: 100;
+                font-weight: 400;
                 height: 100vh;
                 margin: 0;
             }
@@ -76,6 +76,7 @@
         <div class="flex-center position-ref full-height">
 
             <div class="content">
+                    
                 <div class="title m-b-md">
                     Sistem Loker
                 </div>
@@ -84,7 +85,7 @@
                     Universitas Bakrie
                 </div>
 
-                <a href="/login" class="btn btn-transparent btn-block">
+                <a href="/login" class="btn btn-primary btn-block">
                     Login
                 </a>
             </div>

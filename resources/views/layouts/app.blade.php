@@ -25,7 +25,7 @@
         body {font-family: 'Roboto Slab', serif; margin-bottom: 100px;}
     </style>
 </head>
-<body style="font-family: 'Roboto Slab', serif">
+<body>
     <div id="app">
         
         @include('layouts.partials.nav')
